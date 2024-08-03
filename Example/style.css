@@ -55,6 +55,7 @@ body {
 
     display: inline-block;
     overflow: hidden;
+    vertical-align: top;
     width: calc(50% - 25px);
     border-radius: 10px;
     background-color: #222222;
