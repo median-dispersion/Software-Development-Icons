@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="512" height="512" viewBox="0 0 512 512">
+
+    <sodipodi:namedview bordercolor="#000000" borderopacity="0" inkscape:deskcolor="#111111" inkscape:document-units="px" inkscape:pagecheckerboard="0" inkscape:pageopacity="0" inkscape:showpageshadow="0" inkscape:zoom="1" pagecolor="#222222" showguides="true">
+
+        <sodipodi:guide inkscape:color="#ffdf40" inkscape:locked="true" orientation="-1,0" position="256,256"/>
+        <sodipodi:guide inkscape:color="#ffdf40" inkscape:locked="true" orientation="0,1" position="256,256"/>
+        <sodipodi:guide inkscape:color="#f23030" inkscape:locked="true" orientation="-1,0" position="0,512"/>
+        <sodipodi:guide inkscape:color="#f23030" inkscape:locked="true" orientation="0,1" position="0,512"/>
+        <sodipodi:guide inkscape:color="#f23030" inkscape:locked="true" orientation="-1,0" position="512,512"/>
+        <sodipodi:guide inkscape:color="#f23030" inkscape:locked="true" orientation="0,1" position="0,0"/>
+        <sodipodi:guide inkscape:color="#50b350" inkscape:locked="true" orientation="-1,0" position="32,480"/>
+        <sodipodi:guide inkscape:color="#50b350" inkscape:locked="true" orientation="0,1" position="32,480"/>
+        <sodipodi:guide inkscape:color="#50b350" inkscape:locked="true" orientation="-1,0" position="480,480"/>
+        <sodipodi:guide inkscape:color="#50b350" inkscape:locked="true" orientation="0,1" position="32,32"/>
+        <sodipodi:guide inkscape:color="#249cf2" inkscape:locked="true" orientation="1,0" position="112,400"/>
+        <sodipodi:guide inkscape:color="#249cf2" inkscape:locked="true" orientation="0,-1" position="112,400"/>
+        <sodipodi:guide inkscape:color="#249cf2" inkscape:locked="true" orientation="1,0" position="400,400"/>
+        <sodipodi:guide inkscape:color="#249cf2" inkscape:locked="true" orientation="0,-1" position="112,112"/>
+        <sodipodi:guide inkscape:color="#9c2db3" inkscape:locked="true" orientation="1,0" position="144,368"/>
+        <sodipodi:guide inkscape:color="#9c2db3" inkscape:locked="true" orientation="0,-1" position="144,368"/>
+        <sodipodi:guide inkscape:color="#9c2db3" inkscape:locked="true" orientation="1,0" position="368,368"/>
+        <sodipodi:guide inkscape:color="#9c2db3" inkscape:locked="true" orientation="0,-1" position="144,144"/>
+
+    </sodipodi:namedview>
+    
+    <rect width="512" height="512" fill="#f23030" inkscape:label="Margin"/>
+    <rect x="32" y="32" width="448" height="448" fill="#50b350" inkscape:label="Large"/>
+    <rect x="112" y="112" width="288" height="288" fill="#249cf2" inkscape:label="Medium"/>
+    <rect transform="rotate(45)" x="271.53" y="-90.51" width="181.02" height="181.02" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="5" stroke-width="32" inkscape:label="Icon"/>
+    
+</svg>
