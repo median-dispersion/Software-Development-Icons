@@ -94,7 +94,7 @@ python cleanSVG.py "../Icons"
 
 ## Updating the Example
 
-To update the example page, simply execute the tool found at `Tools/updateExample.py`. It will automatically add all new icons ind `Icons/Filled` and `Icons/Outlined` to the example list.
+To update the example page, simply execute the tool found at `Tools/updateExample.py`. It will automatically add all new icons in `Icons/Filled` and `Icons/Outlined` to the example list.
 ```bash
 python updateExample.py
 ```
