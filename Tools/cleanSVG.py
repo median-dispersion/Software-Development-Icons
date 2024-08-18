@@ -5,6 +5,7 @@
 import sys
 import os
 import re
+import datetime
 
 # Check if a path was provided as an argument
 if len(sys.argv) == 1:
@@ -16,6 +17,9 @@ else:
     
     # Else use provided path
     rootPath = sys.argv[1]
+
+# A string of the current date and time
+date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 # Loop through all subdirectories and files 
 for root, dirs, files in os.walk(rootPath):
@@ -32,8 +36,11 @@ for root, dirs, files in os.walk(rootPath):
             # Read the content of the SVG file
             with open(filePath, "r") as svg: svgContent = svg.read()
 
-            # Write that content to a ".backup" file with the same name as the original
-            with open(f"{filePath}.backup", "w") as backup: backup.write(svgContent)
+            # Create a backup folder
+            os.makedirs(f"{root}/backup_{date}", exist_ok=True)
+
+            # Write SVG content to a ".backup" file in the backup folder
+            with open(f"{root}/backup_{date}/{file}.backup", "w") as backup: backup.write(svgContent)
             
             # Get the coordinates / points from the SVG file
             svgPoints = re.findall(r'd="(.*?)"', svgContent)[0]
