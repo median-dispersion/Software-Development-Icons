@@ -5,39 +5,49 @@ A collection of icons for use in software development.
 
 For a full list of all icons in this repository, view the `Example/index.html` file.
 
-### Filled icons
-<p align="left">
+<p align="center">
 <img src="Icons/Filled/Delete.svg" alt="Filled delete icon" width="50px">
 <img src="Icons/Filled/DragAndDrop.svg" alt="Filled drag and drop icon" width="50px">
 <img src="Icons/Filled/Radiation.svg" alt="Filled radiation icon" width="50px">
 <img src="Icons/Filled/Settings.svg" alt="Filled settings icon" width="50px">
+<img src="Icons/Filled/Brightness50.svg" alt="Filled brightness icon" width="50px">
 <img src="Icons/Filled/User.svg" alt="Filled user icon" width="50px">
+<img src="Icons/Filled/Copy.svg" alt="Filled copy icon" width="50px">
+<img src="Icons/Filled/Light.svg" alt="Filled light icon" width="50px">
+<img src="Icons/Filled/Dark.svg" alt="Filled dark icon" width="50px">
+<br><text style="font-weight:bold;">Filled icons</text>
 </p>
 
-### Outlined icons
-<p align="left">
+<p align="center">
 <img src="Icons/Outlined/Delete.svg" alt="Outlined delete icon" width="50px">
 <img src="Icons/Outlined/DragAndDrop.svg" alt="Outlined drag and drop icon" width="50px">
 <img src="Icons/Outlined/Radiation.svg" alt="Outlined radiation icon" width="50px">
 <img src="Icons/Outlined/Settings.svg" alt="Outlined settings icon" width="50px">
+<img src="Icons/Outlined/Brightness50.svg" alt="Outlined brightness icon" width="50px">
 <img src="Icons/Outlined/User.svg" alt="Outlined user icon" width="50px">
+<img src="Icons/Outlined/Copy.svg" alt="Outlined copy icon" width="50px">
+<img src="Icons/Outlined/Light.svg" alt="Outlined light icon" width="50px">
+<img src="Icons/Outlined/Dark.svg" alt="Outlined dark icon" width="50px">
+<br><text style="font-weight:bold;">Outlined icons</text>
 </p>
 
 ## 📐 Guidelines:
 
-- Software: **Inkscape**
-- Format: **SVG**
-- Units: **px**
-- Viewbox: **512px**
-- Margin: **32px**
-- Large icon: **448px**
-- Medium icon: **288px**
-- Tiny icon: **224px**
-- Line weight: **32px**
-- Line cap: **round**
-- Line join: **round**
-- Corner radius: **32px**
-- Fill color: **#FFFFFFFF**
+| Property      | Value     |
+| ------------- | --------- |
+| Software      | Inkscape  |
+| Format        | SVG       |
+| Units         | px        |
+| Viewbox       | 512 px    |
+| Margin        | 32 px     |
+| Large icon    | 448 px    |
+| Medium icon   | 288 px    |
+| Tiny icon     | 224 px    |
+| Line weight   | 32 px     |
+| Line cap      | round     |
+| Line join     | round     |
+| Corner radius | 32 px     |
+| Fill color    | #FFFFFFFF |
 
 Copy the file `Assets/Templates/Master Template.svg` and use it as a starting point. It is already properly sized and has all the guides in place. For a visual representation of how to size the icon, view `Assets/Icon Sizing/Chart.svg`. The icon should ideally be of size large. For smaller icons, the medium size should be targeted. Tiny should only be used if the icon is enclosed in a border, e.g a circle, square or triangle that is of size large. No part of the icon should ever be inside the margin area. There should be a filled and outlined version of the icon. The outlined icon should have no filled polygons and should only consist of lines. The filled icon can contain or even be made up entirely from lines if it is unfeasible to fill it. For both versions of the icon, all stokes should be converted to paths. The icon should be exported as a singe path that has no strokes and is filled with a solid white.
 
@@ -92,7 +102,7 @@ Basic usage:
 python cleanSVG.py "../Icons"
 ```
 
-## Updating the Example
+## 🔄 Updating the Example
 
 To update the example page, simply execute the tool found at `Tools/updateExample.py`. It will automatically add all new icons in `Icons/Filled` and `Icons/Outlined` to the example list.
 ```bash
