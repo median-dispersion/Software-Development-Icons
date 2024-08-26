@@ -15,6 +15,7 @@ For a full list of all icons in this repository, view the `Example/index.html` f
 <img src="Icons/Filled/Copy.svg" alt="Filled copy icon" width="50px">
 <img src="Icons/Filled/Light.svg" alt="Filled light icon" width="50px">
 <img src="Icons/Filled/Dark.svg" alt="Filled dark icon" width="50px">
+<img src="Icons/Filled/WiFiSignal50.svg" alt="Filled WiFi signal icon" width="50px">
 <br><text style="font-weight:bold;">Filled icons</text>
 </p>
 
@@ -28,6 +29,7 @@ For a full list of all icons in this repository, view the `Example/index.html` f
 <img src="Icons/Outlined/Copy.svg" alt="Outlined copy icon" width="50px">
 <img src="Icons/Outlined/Light.svg" alt="Outlined light icon" width="50px">
 <img src="Icons/Outlined/Dark.svg" alt="Outlined dark icon" width="50px">
+<img src="Icons/Outlined/WiFiSignal50.svg" alt="Outlined WiFi signal icon" width="50px">
 <br><text style="font-weight:bold;">Outlined icons</text>
 </p>
 
