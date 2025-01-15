@@ -1,5 +1,15 @@
 # Software Development Icons
+
+<a href="./"><img alt="Software Development Icons Banner" src="./Assets/Banner.svg" style="width:100%"></a>
+
+<p>
+  <a href="./LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/median-dispersion/Software-Development-Icons?style=for-the-badge"></a>
+</p>
+
 A collection of icons for use in software development.
+
+> [!NOTE]
+> This repository is for keeping track of how to create the icons and make them consistent with each other. To use them, simply download the `Icons` folder and choose from the `Filled` or `Outlined` variants.
 
 ## ✨ Example
 
@@ -33,7 +43,7 @@ For a full list of all icons in this repository, view the `Example/index.html` f
 <br><text style="font-weight:bold;">Outlined icons</text>
 </p>
 
-## 📐 Guidelines:
+## 📐 Guidelines
 
 | Property      | Value     |
 | ------------- | --------- |
